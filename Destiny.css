@@ -1,0 +1,59 @@
+body {
+    color: black;
+    font-size: 20px;
+}
+
+.masthead {
+    min-height: 70vh;    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.heading {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a.btn {
+    color: white;
+    padding: 10px;
+    border-radius: 0px;
+    background-color: rgb(77, 2, 138);
+    width: 170px;
+}
+
+a.btn:hover {
+    color: white;
+    padding: 10px;
+    border-radius: 0px;
+    background-color: rgb(140, 52, 218);
+    transition: 0.25s;
+}
+
+.col-second {
+    margin: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.row-first h5{
+    margin: 10px;
+}
+
+li.nav-item:hover {
+    background-color:rgb(77, 2, 138);
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .masthead {
+        min-height: 30vh;
+    }
+}
+
+@media (max-width: 912px) {
+    .masthead {
+        min-height: 30vh;
+    }
+}
